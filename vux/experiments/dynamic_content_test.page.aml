@@ -2626,7 +2626,7 @@ div.vue-markdown.text-widget-content.p-4:has(.custom_kpi_container) {
       filter {
         field: r(orders.created_at)
         operator: 'matches'
-        value: 'Jun 2025'
+        value: 'Apr 2024'
       }
       rows: [
         VizFieldFull {
@@ -2734,7 +2734,7 @@ div.vue-markdown.text-widget-content.p-4:has(.custom_kpi_container2) {
 <div class="custom_revenue_kpi">
   <span class="custom_compare_value2"><strong>{{ rows.0.values.`Triangle Sign` }} {{ rows.0.values.`Delta Abs` }}</strong></span>
 </div> 
-</div>        ;;
+</div>         ;;
       settings {
         show_row_total: true
         show_column_total: true
@@ -2947,7 +2947,7 @@ Custom CSS Block
         position: pos(360, 200, 360, 180)
       }
       block v_2q8l {
-        position: pos(20, 460, 260, 100)
+        position: pos(360, 400, 260, 100)
       }
     }
   }
